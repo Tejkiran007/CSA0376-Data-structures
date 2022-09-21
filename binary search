@@ -19,7 +19,7 @@ else if (array[mid] == key) {
 printf("%d found at location %d.n", key, mid+1);
 break;
 }
-else
+else{
 high = mid - 1;
 mid = (low + high)/2;
 }
