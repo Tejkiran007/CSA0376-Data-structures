@@ -8,7 +8,7 @@ struct stack
 };
 typedef struct stack ST;
 ST s;
-/*Function to add an element to stack */
+
 void push ()
 {
       int num;
@@ -26,7 +26,7 @@ void push ()
       }
       return;
 }
-/*Function to delete an element from stack */
+
 int pop ()
 {
       int num;
@@ -43,7 +43,6 @@ int pop ()
       }
       return(num);
 }
-/*Function to display the status of stack */
 void display ()
 {
       int i;
